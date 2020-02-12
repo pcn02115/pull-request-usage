@@ -1,3 +1,5 @@
+package javaStudy2;
+
 class Point {
     Point() {
         // 매개 변수가 없는 생성자
