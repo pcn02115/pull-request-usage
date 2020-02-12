@@ -1,3 +1,5 @@
+package javaStudy2;
+
 class MyMath2 {
     long a, b;
 
