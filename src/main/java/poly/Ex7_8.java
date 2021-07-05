@@ -14,6 +14,9 @@ class Tv extends Product {
         super(100);
     }
 
+    /*
+    Object 클래스의 toString() 오버라이딩
+     */
     @Override
     public String toString() {
         return "Tv";
@@ -34,6 +37,10 @@ class Buyer {
     int money = 1000;
     int bonusPoint = 0;
 
+    /*
+    메서드의 매개변수에 다형성을 적용 -> 하나의 buy 메서드
+    매개변수가 Product 타입의 참조변수
+    */
     void buy(Product p) {
 
         if (money < p.price) {
